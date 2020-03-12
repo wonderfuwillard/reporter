@@ -34,6 +34,8 @@ Running without any flags assumes Grafana is reachable at `localhost:3000`:
 Query available flags. Likely the only one you need to set is `-ip`. 
 
     grafana-reporter --help
+    -bauth string
+        Grafana Basic Auth. Format:'uname:password@'
     -cmd_apiKey string
           Grafana api key. Required (and only used) in command line mode.
     -cmd_apiVersion string
